@@ -7,7 +7,7 @@ use CodeIgniter\I18n\Time;
 
 class Patient extends BaseController
 {
-    public function index()
+    public function index()aaa
     {
         $patient = new \App\Models\Patient();
         $appoint = new \App\Models\Appointment();
